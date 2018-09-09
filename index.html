@@ -16,16 +16,16 @@
 			<div class="row">
 				
 				<ul class="main-nav abc">
-					<li> <a href="#">Idea Behind This</a> </li>
-					<li> <a href="#">Contact Me </a>   
+					<li> <a href="#section-idea">Idea Behind This</a> </li>
+					<li> <a href="#section-form">Contact Me </a>   
 					</li>
 				</ul>
 			</div>
 		</nav>
 		<div class="Top">
 		<h1>365 Days of <span style="letter-spacing: 5px;font-weight: 1000;">Art</span></h1>
-		<a class="btn btn-full" href="#">See Art</a>
-		<a class="btn btn-ghost" href="#">About Me</a>
+		<a class="btn btn-full" href="#section-art">See Art</a>
+		<a class="btn btn-ghost" href="#section-idea">About Me</a>
 
 
 		</div>
@@ -34,7 +34,7 @@
 
 	</header>
 
-	<section class="section-art">
+	<section class="section-art" id="section-art">
 		<div class="row">			
 			<h2>My Art</h2>
 
@@ -42,29 +42,68 @@
 				This is where all my art is stored, kept in month wise format. Click on any month to see all the art-works
 				for that month. Happy Exploration!		
 				 <ion-icon name="snow"></ion-icon>			
-			</p>
+			</p><br>
 		</div>		
 
 		<div class="row">
 		
-			<div class="section-group">
+			<div class="section-group" style="margin-left: 20%;">
 				
 				<div class="col span_1_of_2 box">
-					<h3  style="text-align: center;">&emsp;&emsp;August - 2018</h3>
-					<div>
-						<a href="#"><img src="img/1.jpg" alt="August" class="months"></a>
+					<h3>&emsp;&emsp;August - 2018</h3>
+					<div class="month-img">
+						<a href="#popup1" class="button"><img src="img/1.jpg" alt="August" class="months"></a>
 					</div>
 				</div>
 
+<!––  Pop ups-->
+
+		<div id="popup1" class="overlay">
+			<div class="popup">
+					<a class="close" href="#">&times;</a>
+					<div class="content">
+						Pop - UP 1	<br>
+						Thank to pop me out of that button, but now i'm done so you can close this window.
+						sf<br>
+						s<br>
+						f<br>
+						sf<br>
+						<br>
+
+						<br>
+						s<br>
+						fs<br>
+						f
+					</div>
+			</div>
+		</div>
+
+<!––  Pop ups-->
+
+
 				<div class="col span_1_of_2 box">
-					<h3 style="text-align: center;">&emsp;&emsp;July - 2018</h3>
-					<div>
-						<a href="#"><img src="img/6.jpg" alt="July" class="months"></a>
+					<h3>&emsp;&emsp;&emsp;July - 2018</h3>
+					<div class="month-img">
+						<a href="#popup2" class="button""><img src="img/6.jpg" alt="July" class="months"></a>
 					</div>
 				</div>
 			</div>
 		</div>
 
+<!––  Pop ups-->
+
+		<div id="popup2" class="overlay">
+			<div class="popup">
+					<a class="close" href="#">&times;</a>
+					<div class="content">
+						
+						Pop - UP 2	<br>
+						Thank to pop me out of that button, but now i'm done so you can close this window.
+					</div>
+			</div>
+		</div>
+
+<!––  Pop ups-->
 		
 	</section>
 
@@ -116,7 +155,7 @@
 		</ul>
 	</section>
 
-	<section class="section-idea">
+	<section class="section-idea" id="section-idea">
 		<div class="row">
 			<h2 style="padding: 5%;">Idea Behind This</h2>
 		</div>
@@ -141,7 +180,7 @@
 		</div>
 	</section>
 
-	<section class="section-form">
+	<section class="section-form" id="section-form">
 		<div class="row" style="margin-bottom: 75px;">
 			<h2>I'm happy to hear from you</h2>
 		</div>
