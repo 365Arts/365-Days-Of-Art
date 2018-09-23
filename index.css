@@ -350,19 +350,9 @@ header{
 {
 	height: 150px;
 	width: auto;
-<<<<<<< HEAD
 	border-radius: 50%;	
 	position: absolute;
 	z-index:1;
-=======
-	border-radius: 50%;
-	
-	position: absolute;
-	  z-index:1;
-	
-	
-
->>>>>>> 8327662d3c8c9f8762a75e77938cb3b24895e97e
 }
 
 .month-img
@@ -377,7 +367,6 @@ header{
 }
 
 
-<<<<<<< HEAD
 
 /*-------------------------------------*/
 /* Day - Works */
@@ -390,8 +379,6 @@ header{
 	width: auto;
 }
 
-=======
->>>>>>> 8327662d3c8c9f8762a75e77938cb3b24895e97e
 /*-------------------------------------*/
 /* Popups*/
 /*-------------------------------------*/
@@ -421,11 +408,7 @@ header{
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-<<<<<<< HEAD
   width: 70%;
-=======
-  width: 50%;
->>>>>>> 8327662d3c8c9f8762a75e77938cb3b24895e97e
   height: auto;
   position: relative;
   transition: all 5s ease-in-out;
