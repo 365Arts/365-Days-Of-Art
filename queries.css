@@ -1,0 +1,186 @@
+
+/*Big Tablet to 1200px*/
+@media only screen and (max-width: 1200px)
+{
+	 
+	.Top
+	{
+		padding: 0 2%;
+		width: 100%;
+	}
+
+	.row
+	{
+		padding: 0 2%;
+
+	}
+
+}	
+
+
+
+/*Small Tablet to Big Tablet*/
+@media only screen and (max-width: 1095px)
+{
+	body
+	{
+		font-size: 18px;
+	}
+
+	section
+	{
+		padding: 30px 0;
+		height: 70vh;
+	}
+
+	.section-work
+	{
+		height: 60vh;
+	}
+
+
+	.section-art
+	{
+		height: 60vh;
+		padding: 60px 0;
+	}
+
+	.section-idea
+	{
+		
+		padding: 60px 0;
+	}
+
+	.Art-Title
+	{
+		
+		width: 80%;
+		margin-left: 10%;
+
+	}
+
+	.drop
+	{
+		padding-top: 20px;
+		padding-bottom: 0px;
+		
+	}
+
+	.endbox
+	{
+		padding-left: 33%;
+	}
+
+	.contact-form
+	{
+		width: 85%;
+	}
+
+}
+
+
+
+/*Small Phones to small tablets*/
+@media only screen and (max-width: 767px)
+{
+
+	h1
+	{
+		font-size: 180%;
+	}
+	h2
+	{
+		font-size: 150%;
+	}
+
+		body
+		{
+			font-size: 16px;
+		}
+
+		section
+		{
+			padding: 30px 0;
+		}
+
+		.row,.top
+		{
+			padding: 0 4%;
+		}
+
+		.col
+		{
+			width: 100%;	
+		}
+		
+		.main-nav
+		{
+			display: none;
+		}
+
+		.Art-Title
+		{
+			line-height:  1.8;
+		}
+
+		.months
+		{
+			display: inline-block;
+		}
+		.boxa
+		{
+			padding-top: 150px;
+			width: 100%;
+
+		}
+
+		.section-work
+		{
+			padding-top: 280px;
+			padding-bottom: 0px;
+			height: 40vh;
+		}
+
+		.section-idea
+		{
+			padding-top: 0px;
+			margin-top: 0px;
+		}
+
+		.below
+		{
+			padding-top: 50px;
+		}
+		.endbox{
+			padding-left: 0%;
+		}
+
+		footer
+		{
+			margin-top: 30px;
+		}
+
+		.hideme
+		{
+			display: none;
+		}
+		.social-links
+		{
+			float: none;
+			
+		}
+		.tocenter
+		{
+			text-align: center;
+		}
+		
+}
+
+
+
+
+/*Small Phones*/
+@media only screen and (max-width: 480px)
+{
+
+}

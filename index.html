@@ -2,12 +2,14 @@
 <html>
 <head>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="2cols.css">
-	
+	<link rel="stylesheet" type="text/css" href="queries.css">
 	<title>Welcome Aboard</title>
+	
 </head>
 <body>
 
@@ -50,17 +52,17 @@
 			<div class="section-group" style="margin-left: 20%;">
 				
 				<div class="col span_1_of_2 box">
-					<h3>&emsp;September - 2018</h3>
+					<h3 class="box">&emsp;September - 2018</h3>
 					<div class="month-img">
 						<a href="#popup1" class="button"><img src="drawings/14.jpg" alt="August" class="months"></a>
 					</div>
 				</div>
 
 
-				<div class="col span_1_of_2 box">
+				<div class="col span_1_of_2 boxa">
 					<h3>&emsp;August - 2018</h3>
 					<div class="month-img">
-						<a href="#popup2" class="button"><img src="drawings/13.jpg" alt="July" class="months"></a>
+						<a href="#popup2" class="button""><img src="drawings/13.jpg" alt="July" class="months"></a>
 					</div>
 				</div>
 			</div>
@@ -178,8 +180,10 @@
 			</blockquote>
 		</div>
 
-		<div class="col myidea" style="float: left;">
 
+
+		<div class="col myidea below" style="float: left;">
+			
 			<blockquote>
 		
 				I also needed an excuse to draw everyday, as drawing gives me peace and a sense of belongingness, that nothing else gives 
@@ -232,11 +236,11 @@
 				</div>
 
 				<div class="row">
-					<div class="col span_1_of_3">
-						<label>Drop me a line</label>
+					<div class="col span_1_of_3 drop">
+						<div >Drop me a line</div>
 					</div>
 
-					<div class="col span_2_of_3">
+					<div class="col span_2_of_3 endbox">
 						<textarea name="message" placeholder="Your Message"></textarea>
 					</div>
 				</div>
@@ -245,8 +249,8 @@
 						<label>&nbsp;</label>
 					</div>
 
-					<div class="col span_2_of_3">
-						<input type="submit" value="Send it!">
+					<div class="col span_2_of_3 sendbut">
+						<input type="submit" value="Send it!" >
 					</div>
 				</div>
 			</form>
@@ -255,14 +259,14 @@
 
 	<footer>
 		<div class="row">
-				<div class="col span_1_of_2">
+				<div class="col span_1_of_2 hideme">
 					<ul class="footer-nav">
 						<li><a href="#">About Me</a></li>
 						<li><a href="#">Art Works</a></li>
 						<li><a href="#">Top Works</a></li>
 					</ul>
 				</div>
-				<div class="col span_1_of_2">
+				<div class="col span_1_of_2 tocenter">
 					<ul class="social-links">
 						<li><a href="#"><ab1><ion-icon name="logo-facebook"></ion-icon></ab1></a></li>
 						<li><a href="#"><ab2><ion-icon name="logo-twitter"></ion-icon></ab2></a></li>

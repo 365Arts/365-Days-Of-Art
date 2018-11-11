@@ -38,13 +38,14 @@
 }
 
 
-html{
+html,body{
 	background-color: #fff;
 	color: #555;
 	font-family: 'Lato','Arial',sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
 }
 
 body{
@@ -230,7 +231,7 @@ header{
 /*  SECTIONS  */
 .section {
 	clear: both;
-	padding: 0px;
+	padding: 80px 0px;
 	margin: 0px;
 }
 
@@ -277,18 +278,18 @@ header{
 
 .section-art
 {
-	padding-bottom: 0px;
-	margin-bottom: 0px;
+	padding: 20px 0;
+	height: 70vh;
 	
-	height: 90vh;
+	
 }
 
 .section-work
 {
 	max-width: 100%;
-	padding: 0;
+	padding: 80px 0;
 	margin: 0;
-	height: 90vh;
+	height: 70vh;
 }
 
 .section-work ul{
@@ -333,9 +334,9 @@ header{
 }
 
 .section-idea{
-	margin: 0;
-	padding: 0;
-	height: 80vh;
+	margin-top: 150px;
+	padding: 80px 0;
+	height: 70vh;
 
 }
 
@@ -444,7 +445,7 @@ header{
 /*-------------------------------------*/
 
 .section-idea{
-	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/bgpic6.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/bgpic4.jpg);
 	background-size: cover;
 	color: #fff;
 	background-attachment: fixed;
