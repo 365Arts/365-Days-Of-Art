@@ -39,13 +39,7 @@
 </head>
 <body>
 
-	<div class="spinner-wrapper">
-		<div class="spinner">
-  		<div class="dot1"></div>
-  		<div class="dot2"></div>
-		</div>
-	</div>
-
+	
 
 	
 
@@ -61,8 +55,7 @@ preloader.fadeOut(preloaderFadeOutTime);
 }
 hidePreloader();
 });
-});
-</script>
+});</script>
 
 
 <div class="say-hello">
@@ -77,11 +70,24 @@ hidePreloader();
 </h1>
 </div>
 
-<script >
+
+<div class="spinner-wrapper">
+		<div class="spinner">
+  		<div class="dot1"></div>
+  		<div class="dot2"></div>
+		</div>
+	</div>
+
+
+
+<script>
 $(document).ready(function() {
 $('.say-hello').delay(2800).fadeOut('slow');
 });
 </script>
+
+
+
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script type="text/javascript">
@@ -135,6 +141,7 @@ anime({
 
 </script>
 
+<script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
 
 	<header>
 		<nav>
@@ -405,6 +412,6 @@ anime({
 	</footer>
 
 
-<script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
+	  
 </body>
 </html>
