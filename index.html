@@ -55,6 +55,17 @@ preloader.fadeOut(preloaderFadeOutTime);
 }
 hidePreloader();
 });
+
+
+function displaySplashPage() {
+$('.say-hello').delay(2800).fadeOut('slow');
+}
+
+
+$(window).on("load", function() {
+  $.when($('.spinner-wrapper').fadeOut(500)).then(displaySplashPage);
+});
+
 });</script>
 
 
@@ -80,11 +91,7 @@ hidePreloader();
 
 
 
-<script>
-$(document).ready(function() {
-$('.say-hello').delay(2800).fadeOut('slow');
-});
-</script>
+
 
 
 
